@@ -209,7 +209,7 @@ def plot(k_range,accuracy_scores):
 # Function name = displaycorrelation
 # description = this function display correlation 
 # description = This function preprocesses the dataset and trains the model and calls the given functions.
-# author = sakshi kedari
+# author = sakshi khadke
 # date = 3-10-2025
 ###################################################################################################
 def DisplayCorrelation(df, file) :
@@ -226,7 +226,7 @@ def DisplayCorrelation(df, file) :
 # Function name = displaypairplot
 # description = this function display pairplot
 # description = This function preprocesses the dataset and trains the model and calls the given functions.
-# author = sakshi kedari
+# author = sakshi khadke
 # date = 3-10-2025
 #######################################################################################
 def DisplayPairplot(df) :
@@ -239,7 +239,7 @@ def DisplayPairplot(df) :
 # Function name = main
 # description = this function from where execution start
 # description = This function preprocesses the dataset and trains the model and calls the given functions.
-# author = sakshi kedari
+# author = sakshi khadke
 # date = 3-10-2025
 ###################################################################################################
 
@@ -309,4 +309,5 @@ def main():
 
 
 if __name__=="__main__":
+
     main()    
