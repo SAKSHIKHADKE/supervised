@@ -1,0 +1,42 @@
+------------------------------------------         CodeNumber  ClumpThickness  UniformityCellSize  UniformityCellShape  MarginalAdhesion  SingleEpithelialCellSize  BareNuclei  BlandChromatin  NormalNucleoli     Mitoses  CancerType
+count  6.980000e+02      698.000000          698.000000           698.000000        698.000000                698.000000  698.000000      698.000000      698.000000  698.000000  698.000000
+mean   1.071807e+06        4.416905            3.137536             3.210602          2.809456                  3.217765    1.419771        3.438395        2.869628    1.590258    2.690544
+std    6.175323e+05        2.817673            3.052575             2.972867          2.856606                  2.215408    2.501078        2.440056        3.055004    1.716162    0.951596
+min    6.163400e+04        1.000000            1.000000             1.000000          1.000000                  1.000000    0.000000        1.000000        1.000000    1.000000    2.000000
+25%    8.702582e+05        2.000000            1.000000             1.000000          1.000000                  2.000000    0.000000        2.000000        1.000000    1.000000    2.000000
+50%    1.171710e+06        4.000000            1.000000             1.000000          1.000000                  2.000000    0.000000        3.000000        1.000000    1.000000    2.000000
+75%    1.238354e+06        6.000000            5.000000             5.000000          4.000000                  4.000000    1.000000        5.000000        4.000000    1.000000    4.000000
+max    1.345435e+07       10.000000           10.000000            10.000000         10.000000                 10.000000   10.000000       10.000000       10.000000   10.000000    4.000000
+------------------------------------------CodeNumber                                CodeNumber
+ClumpThickness                        ClumpThickness
+UniformityCellSize                UniformityCellSize
+UniformityCellShape              UniformityCellShape
+MarginalAdhesion                    MarginalAdhesion
+SingleEpithelialCellSize    SingleEpithelialCellSize
+BareNuclei                                BareNuclei
+BlandChromatin                        BlandChromatin
+NormalNucleoli                        NormalNucleoli
+Mitoses                                      Mitoses
+CancerType                                CancerType------------------------------------------CodeNumber                  int64
+ClumpThickness              int64
+UniformityCellSize          int64
+UniformityCellShape         int64
+MarginalAdhesion            int64
+SingleEpithelialCellSize    int64
+BareNuclei                  int64
+BlandChromatin              int64
+NormalNucleoli              int64
+Mitoses                     int64
+CancerType                  int64
+size of x_train :(558, 9)size of x_test :(140, 9)size of y_train :(558,)size of y_test :(140,)training accuracy is : 1.0Testing accuracy is : 0.9785714285714285classification report is :
+              precision    recall  f1-score   support
+
+           2       1.00      0.97      0.98        89
+           4       0.94      1.00      0.97        51
+
+    accuracy                           0.98       140
+   macro avg       0.97      0.98      0.98       140
+weighted avg       0.98      0.98      0.98       140
+confusion matrix is :
+[[86  3]
+ [ 0 51]]AUC Score: 0.9831
