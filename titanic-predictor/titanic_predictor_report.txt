@@ -1,0 +1,8 @@
+Accuracy: 0.8435114503816794
+Confusion Matrix:
+[[177  12]
+ [ 29  44]]
+Accuracy: 0.8435114503816794
+Confusion Matrix:
+[[177  12]
+ [ 29  44]]
