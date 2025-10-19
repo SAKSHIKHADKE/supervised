@@ -1,0 +1,5 @@
+result of case studyslope of line(m): [0.26188776]
+intercept(c): [328.60141186]
+Mean Squared Error: 4672.043549643725
+R2 score: 0.7149168473012071
+RMSE: 68.35234853056423
